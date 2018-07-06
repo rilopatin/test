@@ -7,10 +7,12 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 
+
 class App extends Component {
   render() {
     return (
         <div className={"wrapper"}>
+            <h1>Hello World!</h1>
             <SayFullName name="Regina1" surname="Lopatin" link="https://vk.com"/>
             <SayFullName name="Regina2" surname="Lopatin" link="https://vk.com"/>
             <SayFullName name="Regina3" surname="Lopatin" link="https://vk.com"/>
@@ -18,7 +20,6 @@ class App extends Component {
     );
   }
 }
-
 
 function SayFullName(props) {
     return (
